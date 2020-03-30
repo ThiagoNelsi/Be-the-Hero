@@ -1,0 +1,8 @@
+@url = http://localhost:3333
+
+POST {{url}}/session
+Content-Type: application/json
+
+{
+  "id": "2d3003e3"
+}

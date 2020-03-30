@@ -1,0 +1,19 @@
+@url = http://localhost:3333
+
+POST {{url}}/incidents
+Authorization: 2d3003e3
+Content-Type: application/json
+
+{
+  "title": "Chachorro atropelado",
+  "description": "Um cachorrinho foi atropelado na rua tal, no dia tal, ajude-o com uma doação",
+  "value": 1000.00
+}
+
+###
+GET {{url}}/incidents?page=5
+
+###
+DELETE {{url}}/incidents/30
+Authorization: 2d3003e3
+

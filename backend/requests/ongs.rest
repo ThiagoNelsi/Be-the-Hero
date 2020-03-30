@@ -1,0 +1,15 @@
+@url = http://localhost:3333
+
+POST {{url}}/ongs
+Content-Type: application/json
+
+{
+  "name": "Teste",
+  "email": "email@emadsil.com",
+  "whatsapp": "35998621027",
+  "city": "Ouro Fino",
+  "uf": "MG"
+}
+
+###
+GET {{url}}/ongs
